@@ -14,6 +14,9 @@ The initial version contains either direct instructions on how to make the
 example compilable and provable, or hints on what to modify. Each sub-directory
 contains a Makefile with entries to compile and prove all examples.
 
+You can interact with a live copy of the examples:
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/quinot/Compile_And_Prove_Demo/topic/binderify)
+
 The examples are in increasing order of difficulty:
 
 ## hello world

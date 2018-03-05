@@ -1,0 +1,11 @@
+#! /bin/bash
+
+set -e
+
+rm -fr README.md unproved proved
+pip install PyYAML
+python binder/ex2ipynb.py examples/*
+rm -fr binder examples
+git clone https://github.com/quinot/sparkdisc_kernel.git
+(cd sparkdisc_kernel; bash ./binder/postBuild)
+rm -fr sparkdisc_kernel
