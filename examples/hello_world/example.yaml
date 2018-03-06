@@ -5,4 +5,4 @@ description: >
  precondition of a call to a standard function may be violated. This must be
  fixed to prove the example.
 metadata:
-  tags: ["run"]
+    main: hello_world
